@@ -2,8 +2,10 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter() // تأكد من وجود هذا المستودع أيضًا، إذا كان ضرورياً
     }
 }
+
 
 rootProject.buildDir = "../build"
 subprojects {
