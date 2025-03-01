@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
       IconData icon, VoidCallback onPressed, String tooltip) {
     return FloatingActionButton(
       onPressed: onPressed,
-      tooltip: tooltip, // إضافة الخاصية Tooltip
+      tooltip: tooltip,
       child: Icon(icon),
     );
   }
